@@ -19,6 +19,7 @@ public class BBAppStarter {
             return Integer.parseInt(System.getenv("PORT"));
         }
         return 8080; //returns default port if PORT isn't set (i.e. on localhost)
+
     }
 }
 
