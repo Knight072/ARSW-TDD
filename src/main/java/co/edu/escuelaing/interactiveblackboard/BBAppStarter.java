@@ -9,8 +9,7 @@ import java.util.Collections;
 public class BBAppStarter {
     public static void main(String[] args) {
         SpringApplication app = new SpringApplication(BBAppStarter.class);
-        app.setDefaultProperties(Collections
-                .singletonMap("server.port", getPort()));
+        app.setDefaultProperties(Collections.singletonMap("server.port", getPort()));
         app.run(args);
     }
 
